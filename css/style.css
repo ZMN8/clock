@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+body, div, p, h1, h2, h3, h4,h5,h6, ul, li, dl, dt, dd, ol, form, table, tr, td, span, label, input, select, option, a, img, i, em, strong, b {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0 none;
+    vertical-align: top;
+}
+
+body {
+    margin: 0 auto;
+}
+
+/*main_code*/
+.clock{position:relative;width:759px;height:735px;background: url("../images/clock.png") no-repeat;margin:100px auto 0;}
+.clock_hands{position: absolute;top:225px;left:363px;width:31px;height:162px;background: url("../images/short.png");
+    -webkit-transform-origin: 50% 146px;
+    -moz-transform-origin: 50% 146px;
+    -ms-transform-origin: 50% 146px;
+    -o-transform-origin: 50% 146px;
+    transform-origin: 50% 146px;
+
+}
+.minute_hands{position: absolute;top:168px;left:365px;width:27px;height:219px;background: url("../images/medium.png");
+    -webkit-transform-origin: 50% 203px;
+    -moz-transform-origin: 50% 203px;
+    -ms-transform-origin: 50% 203px;
+    -o-transform-origin: 50% 203px;
+    transform-origin: 50% 203px;
+
+}
+.second_hands{position: absolute;top:132px;left:363px;width:31px;height:320px;background: url("../images/long.png");
+    -webkit-transform-origin: 50% 240px;
+    -moz-transform-origin: 50% 240px;
+    -ms-transform-origin: 50% 240px;
+    -o-transform-origin: 50% 240px;
+    transform-origin: 50% 240px;
+
+}
+
+
